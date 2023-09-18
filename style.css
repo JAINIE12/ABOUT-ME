@@ -91,14 +91,25 @@ body {
     text-align: center;
     animation: sway 1s alternate;
 }
-.footer{
-	top: 40%;
-	background: none;
-    text-align: center;
-    padding: 20px 0;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-
-}
+/* Style for the footer container */
+.footer {
+	background-color: #333; /* Background color for the footer */
+	color: #fff; /* Text color */
+	padding: 20px; /* Add padding to the footer content */
+	text-align: center; /* Center-align text in the footer */
+  }
+  
+  /* Style for the text inside the footer */
+  .footer p {
+	margin: 0; /* Remove default margin */
+  }
+  
+  /* Additional styling, e.g., for links or additional content within the footer */
+  .footer a {
+	color: #fff; /* Link color in the footer */
+	text-decoration: none; /* Remove underlines from links */
+  }
+  
 .Logo1 {
 	display: flex;
 	justify-content: center;
